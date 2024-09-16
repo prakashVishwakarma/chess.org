@@ -3,7 +3,7 @@ import { useState } from "react"
 
 const Navbar = () => {
 
-    const [toggle, setToggle] = useState<any>(true)
+    const [toggle, setToggle] = useState<boolean>(true)
 
     return (<>
         <nav className="w-full bg-black	text-white sm:flex  ">
