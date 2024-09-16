@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import img from '@/public/assets/images/chess-hero.jpg'
-const Hero = () => {
-    return (<>
+
+const Events = () => {
+    return (
+        
         <div className='relative w-full'>
             <div className="w-[100%] h-screen overflow-hidden absolute">
                 <Image
@@ -21,7 +23,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-    </>)
-}
+    );
+};
 
-export default Hero
+export default Events;
