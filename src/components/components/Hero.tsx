@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import img from '@/public/assets/images/chess-hero.jpg'
 
-const Hero = ({content}:{content: any}) => {
+const Hero = ({content}:{content: JSX.Element }) => {
     
     return (<>
         <div className='relative w-full'>
