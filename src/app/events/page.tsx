@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import img from '@/public/assets/images/chess-hero.jpg'
 import { Hero } from '@/components';
 
 const Events = () => {
