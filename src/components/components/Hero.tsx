@@ -4,9 +4,10 @@ import img from '@/public/assets/images/chess-hero.jpg'
 const Hero = ({content}:{content: JSX.Element }) => {
     
     return (<>
-        <div className='relative w-full'>
-            <div className="w-[100%] h-screen overflow-hidden absolute">
+        <div className='relative w-full bg-gradient-black-white'>
+            <div className="w-[100%] h-[110vh] overflow-hidden absolute">
                 <Image
+                    className=''
                     src={img}
                     // width={1550}
                     // height={100}
@@ -15,7 +16,7 @@ const Hero = ({content}:{content: JSX.Element }) => {
                     alt="Picture of the hero iamge"
                 />
             </div>
-            <div className="w-[100%] h-screen bg-cyan-50">
+            <div className="w-[100%] h-[110vh]" >
                 {content}
             </div>
         </div>
